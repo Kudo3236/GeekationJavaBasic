@@ -6,7 +6,17 @@ public class MethodPractice {
 		int a = 8;
 		int b = 4;
 		
-		result(a, b);
+		int result =sumNumbers(a, b);
+		result(result);
+		
+		result =subNumbers(a, b);
+		result(result);
+		
+		result = mulNumbers(a, b);
+		result(result);
+		
+		result = divNumbers(a, b);
+		result(result);
 	}
 	
 	//足し算
@@ -34,13 +44,10 @@ public class MethodPractice {
 	}
 
 	//出力
-	public static void result(int a, int b) {
+	public static void result(int result) {
 		String calculation = "計算結果は";
 		String end = "です";
 		
-		System.out.println(calculation + sumNumbers(a, b) + end);
-		System.out.println(calculation + subNumbers(a, b) + end);
-		System.out.println(calculation + mulNumbers(a, b) + end);
-		System.out.println(calculation + divNumbers(a, b) + end);
+		System.out.println(calculation + result + end);
 	}
 }
