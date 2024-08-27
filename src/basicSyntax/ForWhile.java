@@ -23,6 +23,8 @@ public class ForWhile {
 			}else if(language == "HTML") {
 				System.out.println("HTMLはプログラミング言語ではありません");
 				break;
+			}else {
+				System.out.println(language);
 			}
 		}
 	}
