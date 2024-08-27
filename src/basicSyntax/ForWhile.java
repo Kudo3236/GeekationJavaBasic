@@ -21,7 +21,7 @@ public class ForWhile {
 				System.out.println("現在学習中の言語はJavaです。");
 				continue;
 			}else if(language == "HTML") {
-				System.out.println("HTMLはプログラミング言語ではありません");
+				System.out.println("HTMLはプログラミング言語ではありません。");
 				break;
 			}else {
 				System.out.println(language);
